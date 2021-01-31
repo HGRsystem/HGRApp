@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn" android:background="@drawable/bb">
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="60dp"
+        android:fontFamily="@font/bold"
+
+        />
+
+    <EditText
+        android:id="@+id/EditText_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Login"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:hint=" Email or Username"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+
+        />
+
+    <EditText
+        android:id="@+id/EditText_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/EditText_email"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="25dp"
+        android:hint=" Password"
+        android:textSize="25sp"
+        android:paddingLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/TextView_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText_password"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Forget Password?"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/TextView_SignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView_forget"
+        android:text="Sign In"
+        android:textSize="35sp"
+        android:layout_marginTop= "10dp"
+        android:paddingLeft="40dp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/purple_500"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
