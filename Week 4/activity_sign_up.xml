@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp" android:background="@drawable/bgsignup">
+
+    <TextView
+        android:id="@+id/TextView_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/bold"
+        android:text="Create a new account"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/TextView_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up!"
+        android:textColor="@color/white"
+        android:layout_below="@+id/TextView_create"
+        android:textSize="40sp"
+        android:fontFamily="@font/bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+
+    <EditText
+
+        android:id="@+id/EditText_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TextView_signup"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/bold"
+        android:hint="Full name"
+        android:paddingLeft="10dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/EditText_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email Address"
+        android:layout_below="@+id/EditText_fullname"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/bold"
+        android:paddingLeft="10dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/EditText_passowrd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Create Password"
+        android:layout_below="@+id/EditText_email"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/bold"
+        android:paddingLeft="10dp"
+
+
+        />
+
+    <EditText
+
+        android:id="@+id/EditText_confirmpassowrd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:layout_below="@+id/EditText_passowrd"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/bold"
+        android:paddingLeft="10dp"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/TextView_signup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditText_confirmpassowrd"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/bold"
+        android:paddingLeft="40dp"
+        android:text="Sign up"
+        android:textColor="@color/purple_500"
+        android:textSize="35sp" />
+
+</RelativeLayout>
